@@ -1,0 +1,15 @@
+# Secretos: NUNCA subir
+.env
+
+# Entorno virtual y cachés
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Generados en tu equipo por los instaladores
+Jarvis.app/
+Jarvis.lnk
+jarvis.sh
+jarvis.log
+.DS_Store

@@ -1,0 +1,4 @@
+# --- Voz (opcionales: el asistente funciona sin ellas, solo en modo texto) ---
+SpeechRecognition>=3.10   # Reconocimiento de voz (micrófono)
+PyAudio>=0.2.13           # Acceso al micrófono (macOS: brew install portaudio / Linux: portaudio19-dev)
+pyttsx3>=2.90             # Respaldo de síntesis de voz si falla el sintetizador nativo

@@ -1,0 +1,5 @@
+# --- Núcleo (obligatorias) ---
+psutil>=5.9            # Estado del sistema (CPU, RAM, disco, batería)
+python-dotenv>=1.0     # Carga de la clave de API desde el archivo .env
+anthropic>=0.40.0      # SDK oficial de Anthropic (IA en la nube)
+customtkinter>=5.2     # Interfaz gráfica (interfaz.py)
