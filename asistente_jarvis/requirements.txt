@@ -1,0 +1,10 @@
+# --- Núcleo (obligatorias) ---
+pyttsx3>=2.90          # Síntesis de voz (texto a voz) offline
+psutil>=5.9            # Estado del sistema (CPU, RAM, disco, batería)
+python-dotenv>=1.0     # Carga de la clave de API desde el archivo .env
+anthropic>=0.40.0      # SDK oficial de Anthropic (IA en la nube)
+customtkinter>=5.2     # Interfaz gráfica moderna (interfaz.py)
+
+# --- Voz de entrada (opcional, solo si quieres hablarle al asistente) ---
+SpeechRecognition>=3.10
+PyAudio>=0.2.13        # Acceso al micrófono (en macOS requiere: brew install portaudio)
