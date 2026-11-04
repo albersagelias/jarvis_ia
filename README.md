@@ -45,20 +45,22 @@ Hay dos formas. Si no sabes qué es Git, usa la **A**.
 ### A) Descargar el ZIP (la más fácil)
 
 1. Abre la página del proyecto en GitHub: `https://github.com/albersagelias/jarvis_ia`
-2. Pulsa el botón verde **`<> Code`** y luego **Download ZIP**.
-3. **Descomprime el ZIP** (no lo uses desde dentro del ZIP, no funciona):
-   - **Windows:** clic derecho sobre el ZIP → **Extraer todo…** → Extraer.
-   - **macOS:** doble clic sobre el ZIP.
-   - **Linux:** clic derecho → *Extraer aquí*, o `unzip jarvis_ia-main.zip`.
-4. Se creará una carpeta (por ejemplo `jarvis_ia-main`) que contiene la carpeta `asistente_jarvis`
-   *(o directamente los archivos, según cómo esté subido)*. **Entra hasta ver `interfaz.py`, `README.md` e `instalar…`**:
-   esa es la **carpeta del proyecto**. Puedes moverla donde quieras (Documentos, por ejemplo), pero hazlo
-   **antes** de instalar.
+2. Pulsa el botón verde **`<> Code`** y luego **Download ZIP**. Se descargará un archivo llamado
+   **`jarvis_ia-main.zip`** (normalmente en tu carpeta *Descargas*).
+3. **Descomprime `jarvis_ia-main.zip`** (no lo uses desde dentro del ZIP, no funciona):
+   - **Windows:** clic derecho sobre `jarvis_ia-main.zip` → **Extraer todo…** → Extraer.
+   - **macOS:** doble clic sobre `jarvis_ia-main.zip`.
+   - **Linux:** clic derecho → *Extraer aquí*, o en la terminal: `unzip jarvis_ia-main.zip`.
+4. Al abrir el ZIP obtendrás la carpeta **`jarvis_ia`**. Dentro debes ver `interfaz.py`, `README.md` e `instalar…`:
+   esa es la **carpeta del proyecto**.
+   *(Si tu sistema la llama `jarvis_ia-main`, renómbrala a `jarvis_ia`; y si dentro solo ves otra carpeta,
+   entra en ella hasta encontrar `interfaz.py`.)*
+   Puedes moverla donde quieras (Documentos, por ejemplo), pero hazlo **antes** de instalar.
 
 ### B) Con Git
 
 ```bash
-git clone https://github.com/TU_USUARIO/jarvis_ia.git
+git clone https://github.com/albersagelias/jarvis_ia.git
 cd jarvis_ia
 ```
 
