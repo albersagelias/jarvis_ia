@@ -44,8 +44,7 @@ Hay dos formas. Si no sabes qué es Git, usa la **A**.
 
 ### A) Descargar el ZIP (la más fácil)
 
-1. Abre la página del proyecto en GitHub: `https://github.com/TU_USUARIO/jarvis_ia`
-   *(sustituye `TU_USUARIO` por el nombre de usuario del repositorio)*.
+1. Abre la página del proyecto en GitHub: `https://github.com/albersagelias/jarvis_ia`
 2. Pulsa el botón verde **`<> Code`** y luego **Download ZIP**.
 3. **Descomprime el ZIP** (no lo uses desde dentro del ZIP, no funciona):
    - **Windows:** clic derecho sobre el ZIP → **Extraer todo…** → Extraer.
